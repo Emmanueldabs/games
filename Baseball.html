@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="//img.icons8.com/cotton/64/000000/baseball-ball--v1.png"/>
+<title>
+    Baseball
+</title>
+
+<style>
+    .header{
+        background-image: url("https://thinkbluela.com/wp-content/uploads/2019/11/Dodgers-Blue-Swoosh-Logo-FS.jpghttps://www.adobe.com/express/create/photo-collage/media_1e44e705240fd0a4f2c4f446c3a98ae75d9dd4ad5.png?width=1200&format=pjpg&optimize=medium");
+        text-align: center;
+        padding: 20px;
+        color: bisque;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 35px;
+
+    }
+    ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(65, 35, 149);
+        overflow: hidden;
+    }
+    .nav{
+        float: left;
+
+    }
+    .nav a{
+        text-decoration: none;
+        display: block;
+        color: rgb(92, 250, 0);
+        padding: 14px 16px;
+    }
+    .nav a:hover{
+        background-color: crimson;
+        color: rgb(255, 255, 255);
+
+    }
+    .content{
+        font-family: cursive;
+        color: dodgerblue;
+        font-size: 20px;
+    }
+    body{
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAEBCAMAAAAQKvrqAAAAkFBMVEX///8AWpwAU5kAVZpeh7R9nMGBosUATZZ7mb4AWJsAVpoAT5cAUZgASpTN2+jq8fcAR5OGp8g4cKeas8+mvNSzxdpijLggZ6PC0uL3+/1qkbrZ5O6DpMZqkLrj6/O7zN4laaQAPI9LfrAAYKBAd6zx9fmctdCOrMpQgbG0xtvc5vAsb6ipwNcAPY9Beq4AQ5GkTel5AAAJQklEQVR4nO2dC3eiSBCFUXyBEE3iOOIj0USjSZz4///d6mqi0Nyyu6WwnOl7ds+es1HkU6qpvl3VeN74fnl/1HinRqOx+/dH9Xq99a3hQZOt+pN+LfEkaFM9lQ8U7pX9H34kA6JZuUCB7yAKk4NwEAXKQTiIAuUgHESBchAOokA5CAdRoByEgyhQDkIKxCzOKkSnHCovjbsyIDpZLVaAImwtlBd3rn36SDU/H6Jav/aZGchBSJGDkCIHIUUOQoochBQ5CClyEFLkIKTIQUiRg5AiByFFDkKKHIQUOQgpchBS5CCkyEFI0b8O0bnT0EcJDJdALDfNs4pfS2C4BGIe5L81pe5CNETi60C0B6Ih7rRqLKr3oiEeIx2I4EE0xAssC0lBlNHDYw2R6ETEVs07wRAjzbKj6FEwxJtWSFQq4YtgCPRGlUIwxKtmTFSaI7EQH7EmQyV6Ewux1gyJSsWviYXoa90ldgr4c0BbiN+6IbENiiehEE/aIbHNAddCId7b+hD+UChES/cusVUwFQrxoB3XlRKCwg5iYVSv3f4lEmJgBMEeFHYQ91UTCPagsIPQ8giOajJXmVtBJIYtDO1ngRB6HoHmwa4FoecRHBUyuwVWEKjpAqrJ6xZYQTTN4noLwWuh2UCMDLK/w9F4LTQbCF2P4Chmt8AGQtsj+FHQFAcRmYYEt4VmAUF4BJCO10KzgOjBkAhXiCJcCYMYortE8AX5eIPCAgL9DpXqGBu0MaeFZg7xBKfX2zyvi/4W9URBYI8g7ngPMCj6oiCgRxD89rwxnC35oiCgbRZuZ6HP+GdidAuMITrwNKP19q8wKDjdAmMI4rveDUDQ8fdbgiDwVR/s/oxvIoy+sjEEtM32N2V8O2d0C0whFrCOoLrc/R3PNRjdAlMIbJsdEtUqhGyIgViikAiifSkKnH+HUzEQXzBwHzQprw+RQJ/j+2ohrjc2t8AQAttm33GL3cF95AuAwLbZzwgKx+BgLgQChu0u+9urDoMi5AoKMwhcWnNMtXGqzuYWmEHgW9lx0oMXVtncAjMIbJudVHDAHJDNQjODwLZZcLSM+9hbY/KVzSDg2YVfxxfhn4vLLTCCwJf76T0AWx5cboERBC6tOb0b6wxhV4QYQo+genoLgMuSXBMjIwg47qQXeWEOyOUWmEBgFyA9V8A5IJNbYAKBPYL2ewoWev9MtQUmEDArypagQGuKqbbABAJXmwXpF+JCopjFLTCAWMCQyA6deCjmcQsMIAbY+8tUjX7giRGLW2AAgW0zpX4X3+5YagsMID7h/DrOvhSXHMQcOaA+RAITp9Psby9iFsvhFuhDYI9AdQCI13LUFuhD4GRC/XYTOAawuAX6ELjaLGcLVhw/3WtCJDCXCD7Vwzbwz8bgFmhD4Ms8b/kEp1kcFpo2BB5w0tnfXh08lDG4BdoQxNCfN0nAaRZDbYE2BD6r3OkaXPbiaM/RhcCz//yJM172YmjP0YUwPSnsFfoq9HrWRSoUArffxPljJi52DJTX/sL3xkIhsEcAtkzHraltpVu+JIgnHBJgyMRZSqS055QEsTa+eWHLQ3ULSoKAthnMrRcwstUxuSSIKQzTNlr+wTlgO+sWlAPRwSGRk/3thS0PxS0oBwLnc7h4Bp+Zkg2UA4FtM2xM4nUApbagHAjckUa0n+FbS7a2oBQI3JFGmfV4bSw7opUCgW0zqk8ZL3tl3YJSILBtRqWkeC6YdQtKgcAeATU5wPvEBGE63yoDguhICyhDj2BPZ75lQOhfF2kRV2G6tqAMCJyQ0tYFvkVmOhHKgMBTA9pZxXXAmcuwDAg4SQuq9MIPXlpK1xaUAEE1adIHxwl8uragBAi8eJUz50+JCIrUfLAECOL7POO+4H6R9LZPJUDgXWvO+mDEW0/vFPwQ2FYN2ueOPoHjWupHZIP4WebUHu1zRITTaeaIP+IyiOCh3vpf9Tn8NoP54TVQ2HILKq3WcDiZ9Pu1Wg3nJzkQPUVr2MkU+AcRvdc/r0E6994wDHf/wW2gORCRKvM20lKVA3HtUzKXg5AiByFFDkKKHIQUOQgpchBS5CCkyEFIkYOQIgchRX8rRNVMhJ0TmByH2iLNp98aqRANI42xHRy8jA2Og231ij88cyAVwkzEoqlZVw3xzJCIez9cYmfbtlnTH/Za2ffDJXatMWy/xHvkHncFYBL+/kLD7w9b90w9az/C7TfGLcm4cC23Wr5AESFhXO6N14KZ98PFdQTmz8XA5e/M++HCXWssWiBwpXklZn2kFA4J82YU4ik0rPvhEnUE5m1BxPOAWPfDJTZ7bppfAcS1qXQaFijcfmPTVE2MEpxbf7bxqGiRlVHjNd9+uEQo2vRU445/zv1wqUHRJlPAt7uQ7+k5xNNv9EoVMsLl7+crRKyFx8RwYnM8XIPCtx8ubr+x3JAGd/zz7YdLPBDK8ovDkX2ufs1aeFpsewkTDxng2g8XewS2m2tTGQDPDje4eM+6FZnIxZh2uCEeCGWddcKtS7j2w61jp8j6eRi4G4Zp26dPht1DcMe/2rNWhIhMx35O/FxsNnb+83BI2H8e3uKqUh0XefYHEb/8BT4RMWzDjsMLRMTgBY4dtjzS+74VowUOCbvsby8iu2dwC4hp2CXJGvFQHYbNPIgJ8UVpM161YXALqIdGX7I9E3FcskvMRgnxjV20/QnxFLzCN/MgUrXqRZN63P154cTol1JpXycy/2Cl1OlDA+9ZLeInDjxVGwD0naFx06TUXq3Tj6boyI/xRQf2q/q3JLOnNarCCaHpQ+8ULPj1OAgH8Y9C/BWB7SAchINwEPIhkl5tvnpDM/HbgBhEca3ej7rKRmM3BDH4s69NWs7ypx23AJFEw2T+NZ83vMdZru11CxBv3aTzp7VcVhvea+4c7BYgXvpeZ/bhebWVt5zeKsS04XW6r78rm3dvnbvYdgsQDy2vs+ktuyPP6+Uuot8CRON1ezmNvGnL81a5K623ADGavSebO+9uMxrNck3bW4Dw6pv9ud/5+ebdTUB4w1n/eTRobV7y3c5xO/xfp/ZQ9n+k7aBMWf0UQsSnhft5W0mkPyfMyD9djhzMZ7PZJ1oq7tX6k/5kMhl+68cI3Cpbfr/T/VHL7T9LaGwOxsvjS3fvTB1rd/jDJx0+eDKc9FPKlEEfsr//AM5S3IVlMKfbAAAAAElFTkSuQmCC");
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    .img{
+        height: 200px;
+        width: 400px;
+        border-radius: 25px;
+        border: 10px cornflowerblue ridge;
+        padding: 15px;
+    }
+    .img:hover{
+        height: 250px;
+        width: 450px;
+        border-radius: 30px;
+        border: 15px rgb(0, 21, 59) ridge;
+        padding: 20px;
+    }
+    
+</style>
+</head>
+<body>
+ 
+    <div class="header">
+        <h1>
+            Baseball
+        </h1>
+        <p>
+            Welcome!
+        </p>
+    </div>
+    <div>
+        <ul>
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="tennis.html">Tennis</a></li>
+            <li class="nav"><a href="WWE.html">WWE</a></li>
+            <li class="nav"><a href="Golf.html">Golf</a></li>
+            <li class="nav"><a href="Football.html">Football</a></li>
+            <li class="nav"><a href="Soccer.html">Soccer</a></li>
+            <li class="nav"><a href="Volleyball.html">Volleyball</a></li>
+            <li class="nav"><a href="Cricket.html">Cricket</a></li>
+            <li class="nav"><a href="Baseball.html">Baseball</a></li>
+        </ul>
+    </div>
+    <div class="content">
+<p>
+    Baseball is a unique sport in many different ways. It is the only major competitive sport that has no time limit. The success of a player is determined on how well he can play as an individual and how well the team plays along with him. There are many rules that determine the success of a player’s performance. A baseball game is played with two teams and each team is permitted 25 players per team; however this is only true for professional teams. There are three parts to baseball: offense, pitching, and defense.
+
+    Each part has is completely different for each other, but to play the game each part must be involved.
+    
+    The team on offense tries to score runs, while the pitching and defense tries to prevent the offense from scoring…show more content…
+    If a ball is hit over the wall then it is called a homerun and the player who hit it and anyone who is on base automatically scores. The offense is given three outs every inning, there are usually nine innings in a game. There are cretin exceptions where there could be more or less then nine; if the game is past the 5th inning and has to be stopped do to rain, the game would be stopped there. The only way for a game to go more then nine innings is if the game is tied after nine full innings. The first line of defense against the offense is the pitching, thus making the pitcher the most important player on the filed.
+    
+    The pitcher job is to try and throw the ball past the player who’s on offense. There is a defensive player behind the offensive player that catches the ball if the offensive player can’t hit it. The pitcher has to throw either make the hitter put the ball in play and attempt to get him out or he has to throw the ball past the hitter 3 times. Each time he throws the ball past a hitter it’s called a strike, three strikes and the hitter is out. A strike can also be a foul ball; which is a ball that is hit, but not in the filed of play. Another way to get a strike is if the hitter doesn’t swing at a pitch that is above his knees and below his elbows and is above home plate. If the ball is not in that area then it’s called a ball, four balls and the player automatically gets a free pass to first base. The last line of defense is
+    Get Access 
+</p>
+<img src="https://static01.nyt.com/images/2020/08/24/sports/24mlb-kepner-1/merlin_176084667_69b1099b-0b7e-41ce-bfdf-e407899f10dc-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="" class="img">
+    </div>
+</body>
+</html>
